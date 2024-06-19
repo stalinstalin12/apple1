@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+  line-height: normal;
+}
+body {
+  background-color: rgb(245, 245, 247);
+}
+h2 {
+  font-size: 28px;
+}
+p {
+  font-size: 12px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: small;
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+.atags {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.atags a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 100;
+}
+.body {
+  width: 93%;
+  min-height: 800vh;
+  margin: auto;
+  overflow: hidden;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 35vh;
+}
+.section1-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 47px;
+}
+.section11-right {
+  display: flex;
+  gap: 16px;
+}
+.section-right-image img {
+  height: 45px;
+  width: 45px;
+}
+.section-left {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.section-left,
+h1 {
+  color: #6e6e73;
+  font-size: 48px;
+}
+.section-right-text {
+  color: black;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 2px;
+  font-size: 14px;
+}
+.section2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 30vh;
+}
+.section2 img {
+  width: 120px;
+  height: 78px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.new-heading {
+  color: #6e6e73;
+  display: flex;
+  font-size: 28px;
+  justify-content: left;
+  align-items: center;
+  margin-top: 60px;
+}
+.section4 {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 10px;
+}
+.section4-box1 {
+  width: 400px;
+  height: 500px;
+  background-image: url(/images/iphone15.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  justify-content: left;
+  align-items: left;
+  padding: 30px;
+}
+.section-box-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: left;
+}
+.section-box-text p {
+  margin-bottom: 10px;
+}
+.section-box-text span {
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.section4-box1-text,
+.section4-box3-text {
+  color: white;
+}
+.section4-box2-text {
+  color: black;
+}
+.section4-box2 {
+  width: 400px;
+  height: 500px;
+  background-image: url(/images/store-card-40-vision-pro-202401.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  justify-content: left;
+  align-items: left;
+  padding: 30px;
+  color: black;
+}
+.section4-box3 {
+  width: 400px;
+  height: 500px;
+  background-image: url(/images/ipad.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  justify-content: left;
+  align-items: left;
+  padding: 30px;
+  color: black;
+}
+.section6{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  overflow: hidden;
+  padding: 10px;
+}
+.section6-boxes{
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  justify-content: left;
+  align-items: left;
+  padding: 30px;
+  color: black;
+}
+.section6-box1{
+  background-image: url(./images/earth-day-specialist-help-202404.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section6-box2{
+  background-image: url(./images/specialist-video-202404.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section6-box3{
+  background-image: url(./images/store-card-50-TAA-202310.jpg);
+  background-position: center;
+  background-size: cover;
+}
